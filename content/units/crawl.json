@@ -1,0 +1,48 @@
+{
+	"name": "Crawl",
+	"type": "legs",
+	"legCount": 6,
+	"speed": 1,
+	"hitSize": 1.2,
+	"health": 40,
+	"legGroupSize": 3,
+    "itemCapacity": 1,
+	"faceTarget": true,
+	"range": 32,
+	"flying": false,
+	"rotateSpeed": 3,
+    "legBaseOffset": 0,
+    "legMoveSpace": 1,
+    "legLength": 10,
+    "legExtension": -12,
+    "legSpeed": 0.2,
+    "legLengthScl": 0.98,
+	"legContinuousMove": true,
+	"allowLegStep": true,
+	"weapons": [
+	    {
+	"name": "byte",
+    "mirror": false,
+    "x": 0,
+    "y": 2,
+    "shake": 0,
+    "shootY": 6,
+    "rotateSpeed": 0,
+    "reload": 10,
+    "recoil": 4,
+    "shootSound": "laser",
+    "shadow": 20,
+    "rotate": false,
+    "bullet": {
+      "type": "laserBulletType",
+      "damage": 5,
+      "sideAngle": 5,
+      "sideWidth": 0.5,
+      "sideLength": 8,
+      "width": 15,
+      "colors":["D99F6BAA", "F3E979FF", "FFFFFF"],
+      "length": 12,
+    }
+  }
+    ]
+}

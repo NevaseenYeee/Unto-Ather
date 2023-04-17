@@ -1,0 +1,57 @@
+{
+	"name": "[purple]Spindle",
+	"type": "legs",
+	"legCount": 12,
+	"speed": 0.1,
+	"hitSize": 32,
+	"health": 40000,
+	"legGroupSize": 3,
+    "itemCapacity": 90,
+	"faceTarget": true,
+	"range": 50,
+	"flying": false,
+	"rotateSpeed": 3,
+    "legBaseOffset": 8,
+    "legMoveSpace": 1,
+    "legLength": 32,
+    "legExtension": 0,
+    "legSpeed": 0.2,
+    "legLengthScl": 0.98,
+	"legContinuousMove": true,
+	"allowLegStep": true,
+	"weapons": [
+	    {
+	"name": "spindle-unmaker",
+    "mirror": false,
+    "x": 0,
+    "y": 16,
+    "shake": 1,
+    "shootY": 8,
+    "rotateSpeed": 0,
+    "reload": 1,
+    "recoil": 14,
+    "shootSound": "explosion",
+    "shadow": 20,
+    "rotate": false,
+    "bullet": {
+      "type": "laserBulletType",
+      "damage": 30,
+      "sideAngle": 15,
+      "sideWidth": 1,
+      "sideLength": 18,
+      "width": 15,
+      "colors":["5b6ee1", "639bff", "5fcde4"],
+      "length": 158,
+    }
+  }
+    ]
+	"abilities": [
+      {
+        "type": "UnitSpawnAbility",
+        "spawnX": 0,
+        "spawnY": 0,
+        "unit": "crawl",
+        "spawnTime": 30
+       }
+	]
+}

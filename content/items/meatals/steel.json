@@ -1,0 +1,9 @@
+{
+  "name": "Steel",
+  "description": "[red]Unto ather [grey]A strong metal, harder than copper",
+  "color": "9badb7",
+  "flamibility": 0,
+  "explosiveness": 0,
+  "charge": 0,
+  "radioactivity": 0,
+}

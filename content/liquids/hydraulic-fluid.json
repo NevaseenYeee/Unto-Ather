@@ -1,0 +1,11 @@
+{
+"name": "Hydraulic fluid"
+"temperature": 0,
+"flammability": 0,
+"viscosity": 0.3,
+"lightColor": "d3df6e",
+"heatCapacity": 0,
+"explosiveness": 0,
+"effect": "wet",
+"color": "8f974a",
+}

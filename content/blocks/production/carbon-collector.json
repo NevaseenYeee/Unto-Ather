@@ -1,0 +1,43 @@
+{
+  "type": "GenericCrafter",
+  "name": "Carbon Collector",
+  "description": "[red]Unto Ather [grey]Hey you know that Air, thing? Yea it's Coal now.",
+  "itemCapacity": 5,
+  "size": 1,
+  "craftTime": 600,
+  "health": 1,
+  "hasPower": false,
+  "hasLiquids": false,
+  "hasItems": true,
+  "updateEffect": "smoke",
+  "consumes": {
+      "liquid": 
+      {
+        "liquid": "water",
+        "amount": 0.04
+      }
+  },
+  "category": "production",
+  "outputItem": {
+    "item": "coal",
+	"amount": 1
+  },
+  "research": {
+    "parent": "sorting-station",
+    "requirements": [
+		{"item": "copper", "amount": 10},
+		{"item": "lead", "amount": 5}
+    ]
+  },
+  "requirements": [
+
+    {
+      "item": "lead",
+      "amount": 6
+    },
+	{
+      "item": "copper",
+      "amount": 10
+    }
+  ]
+}

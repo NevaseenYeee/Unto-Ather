@@ -1,0 +1,9 @@
+{
+  "name": "Heavy Steel"
+  "description": "[red]Unto Ather [grey]A dense material made from Steel, Titanium Steel, and Coal.",
+  "color": "696a6a",
+  "flammability": 0,
+  "explosiveness": 0,
+  "charge": 0,
+  "radioactivity": 0,
+}

@@ -1,0 +1,165 @@
+{
+  "type": "multicraft.MultiCrafter",
+  "name": "Heavy Core Drill",
+  "description": "[red]Unto Ather [grey]Tears from the core of the planet trace minerals",
+  "itemCapacity": 80,
+  "size": 5,
+  "health": 4800,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "updateEffect": "pulverize",
+  "category": "production",
+  "recipes": [
+    {
+		"input": {
+			"power": 20
+		},
+		"output": {
+			"items":
+			[
+				"copper/36",
+				"ua-earth/3",
+				"ua-stone-item/1"
+			]
+		},
+		"craftTime": 600
+	},
+	{
+		"input": {
+			"power": 20
+		},
+		"output": {
+			"items":
+			[
+				"lead/36",
+				"ua-earth/3",
+				"ua-stone-item/1"
+			]
+		},
+		"craftTime": 600
+	},
+	{
+		"input": {
+			"power": 20
+		},
+		"output": {
+			"items":
+			[
+				"ua-iron/36",
+				"ua-earth/3",
+				"ua-stone-item/1"
+			]
+		},
+		"craftTime": 600
+	}
+	{
+		"input": {
+			"power": 20
+		},
+		"output": {
+			"items":
+			[
+				"scrap/36",
+				"ua-earth/3",
+				"ua-stone-item/1"
+			]
+		},
+		"craftTime": 600
+	}
+	{
+		"input": {
+			"power": 20,
+		},
+		"output": {
+			"items":
+			[
+				"titanium/24",
+				"ua-earth/6",
+				"ua-stone-item/10"
+			],
+		}
+		"craftTime": 600
+	}
+	{
+		"input": {
+			"power": 20,
+		},
+		"output": {
+			"items":
+			[
+				"thorium/24",
+				"ua-earth/6",
+				"ua-stone-item/10"
+			],
+		}
+		"craftTime": 600
+	}
+	{
+		"input": {
+			"power": 20,
+		},
+		"output": {
+			"items":
+			[
+				"ua-uranium-ore/24",
+				"ua-earth/6",
+				"ua-stone-item/10"
+			],
+		}
+		"craftTime": 600
+	}
+	{
+		"input": {
+			"power": 20,
+		},
+		"output": {
+			"items":
+			[
+				"ua-aluminium/24",
+				"ua-earth/6",
+				"ua-stone-item/10"
+			],
+		}
+		"craftTime": 600
+	}
+  ]
+  "research": {
+    "parent": "steel-frame-assembler",
+    "requirements": [
+      {"item": "steel-frame", "amount": 40}
+      {"item": "steel", "amount": 200}
+    ]
+  },
+  "requirements": [
+
+    {
+      "item": "steel",
+      "amount": 80
+    },
+	{
+      "item": "steel-frame",
+      "amount": 80
+    },
+	{
+      "item": "steel-rod",
+      "amount": 60
+    },
+	{
+      "item": "steel-sheet",
+      "amount": 80
+    },
+	{
+      "item": "lead",
+      "amount": 40
+    },
+    {
+      "item": "iron",
+      "amount": 50
+    },
+    {
+      "item": "copper",
+      "amount": 70
+    }
+  ]
+}

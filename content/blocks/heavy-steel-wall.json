@@ -1,0 +1,19 @@
+{
+  "type": "Wall",
+  "name": "Heavy Steel wall",
+  "description": "A wall made out of Heavy Steel. Is armored.",
+  "category": "defense",
+  "requirements": [
+    {
+      "item": "steel",
+      "amount": 30
+    },
+	{
+      "item": "heavy-steel",
+      "amount": 15
+    },
+  ],
+  "health": 18000,
+  "armor": 50,
+  "size": 1
+}

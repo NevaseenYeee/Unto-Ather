@@ -1,0 +1,40 @@
+{
+  "type": "GenericCrafter",
+  "name": "Oil Cracker",
+  "description": "[red]Unto Ather [grey]A large machine to crack Oil.",
+  "size": 4,
+  "craftTime": 240,
+  "health": 500,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": false,
+  "updateEffect": "shockwave",
+  "consumes": {
+	"liquid": 
+      {
+        "liquid": "oil",
+        "amount": 0.5
+      },
+	"power": 8
+  },
+  "category": "crafting",
+  "outputLiquid": {
+    "liquid": "light-oil",
+	"amount": 1
+  },
+  "research": {
+    "parent": "steel-frame-assembler",
+    "requirements": [
+      {"item": "steel", "amount": 200}
+    ]
+  },
+  "requirements": [
+	"steel/12"
+	"steel-sheet/30"
+	"steel-tube/40"
+	"steel-frame/4"
+	"metaglass/20"
+	"copper/20"
+  ]
+  
+}

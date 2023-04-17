@@ -1,0 +1,45 @@
+{
+  "type": "GenericCrafter",
+  "name": "Hydraulics plant",
+  "description": "[red]Unto Ather [grey]An odd machine to make Hydraulic fluid.",
+  "size": 4,
+  "craftTime": 240,
+  "health": 800,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": false,
+  "updateEffect": "shockwave",
+  "consumes": {
+	"liquids": { 
+	  "liquids": [
+      {
+        "liquid": "light-oil",
+        "amount": 0.5
+      },
+	  {
+		  "liquid": "water"
+		  "amount": 0.5
+	  }
+	  ]
+	}
+	"power": 8
+  },
+  "category": "crafting",
+  "outputLiquid": {
+    "liquid": "hydraulic-fluid",
+	"amount": 1
+  },
+  "research": {
+    "parent": "steel-frame-assembler",
+    "requirements": [
+      {"item": "steel", "amount": 200}
+    ]
+  },
+  "requirements": [
+    "steel/32"
+	"steel-sheet/40"
+	"steel-tube/12"
+	"steel-frame/14"
+	"metaglass/40"
+  ]
+}

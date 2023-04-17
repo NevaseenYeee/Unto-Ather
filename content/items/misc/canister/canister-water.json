@@ -1,0 +1,9 @@
+{
+  "name": "Water Canister",
+  "description": "[red]Unto ather [grey]A Canister of Water.",
+  "color": "4359df",
+  "flammability": 0,
+  "explosiveness": 0,
+  "charge": 0,
+  "radioactivity": 0,
+}

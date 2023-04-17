@@ -1,0 +1,19 @@
+{
+  "type": "Wall",
+  "name": "[blue]Ather[] wall",
+  "description": "[red]Unto Ather []A pillar of [blue]Ather[]. The strongest thing you can imagine.\n[grey]Rising towers [blue]of Ather[].\nWorlds now held [blue]by Ather[].\nAll others now fall [blue]unto Ather[].",
+  "category": "defense",
+  "breakable": false
+  "destructible": true
+  "insulated": true
+  "teamPassable": true
+  "requirements": [
+    {
+      "item": "ather",
+      "amount": 15
+    }
+  ],
+  "health": 100000000000000,
+  "armor": 100000000000000,
+  "size": 1
+}

@@ -1,0 +1,50 @@
+{
+  "type": "GenericCrafter",
+  "name": "[blue]Ather [white]Conglomerator",
+  "description": "[red]Unto Ather []Collects grains of [blue]Ather []into piles... Yes you need a machine for this.",
+  "itemCapacity": 200,
+  "spinnerSpeed": 4,
+  "size": 4,
+  "explosiveness": 100,
+  "craftTime": 6000,
+  "health": 12000,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "wet",
+  "consumes": {
+	"liquid": 
+      {
+        "liquid": "cryofluid",
+        "amount": 1
+      },
+    "items": {
+		"items": [
+		{
+			"item": "ather-grain",
+			"amount": 100
+		}
+		]
+	},
+  },
+  "category": "crafting",
+  "outputItem": {
+    "item": "ather-pile",
+	"amount": 1
+  },
+  "research": {
+    "parent": "sorting-station",
+    "requirements": [
+      {"item": "copper", "amount": 60}
+      {"item": "lead", "amount": 30}
+    ]
+  },
+  "requirements": [
+	"steel-frame/400"
+	"titanium-steel-frame/250"
+	"steel-sheet/900"
+	"titanium-steel-sheet/200"
+	"surge-superconductor/60"
+	
+  ]
+}

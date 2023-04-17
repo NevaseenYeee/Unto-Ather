@@ -1,0 +1,41 @@
+{
+"type": "StackConveyor",
+"name": "Dugout conveyor"
+"description": "[red]Unto Ather [grey]Litteraly a hole in the ground."
+"loadEffect": {
+"type": "ParticleEffect",
+"line": true,
+"particles": 7,
+"lifetime": 15,
+"length": 25,
+"cone": -360,
+"lenFrom": 5,
+"lenTo": 0,
+"colorFrom": "663931",
+"colorTo": "8f563b"
+},
+"unloadEffect": {
+"type": "ParticleEffect",
+"line": true,
+"particles": 7,
+"lifetime": 15,
+"length": 25,
+"cone": -360,
+"lenFrom": 5,
+"lenTo": 0,
+"colorFrom": "663931",
+"colorTo": "8f563b"
+},
+"research": {
+    "parent": "mud-bore",
+    "requirements": [
+      {"item": "earth", "amount": 1}
+    ]
+  },
+"health": 1,
+"speed": 0.01,
+"itemCapacity": 1,
+    "requirements": [
+        "earth/1"
+    ]
+}

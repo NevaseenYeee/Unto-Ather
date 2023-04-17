@@ -1,0 +1,9 @@
+{
+  "name": "Grain of [blue]Ather",
+  "description": "[red]Unto ather [grey]A single grain of [blue]Ather.[grey] Still strong enough to level a city block.",
+  "color": "5fcde4",
+  "flammability": 100,
+  "explosiveness": 100,
+  "charge": 100,
+  "radioactivity": 100,
+} 

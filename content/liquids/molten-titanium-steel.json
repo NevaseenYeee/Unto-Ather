@@ -1,0 +1,11 @@
+{
+"name": "Molten Titanium Steel"
+"temperature": 5,
+"flammability": 0,
+"viscosity": 0.4,
+"lightColor": "639bff",
+"heatCapacity": -1,
+"explosiveness": 0,
+"effect": "melting",
+"color": "5b6ee1",
+}

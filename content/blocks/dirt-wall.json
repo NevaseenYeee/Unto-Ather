@@ -1,0 +1,14 @@
+{
+  "type": "Wall",
+  "name": "Dirt wall",
+  "description": "A large pile of dirt. that's it.",
+  "category": "defense",
+  "requirements": [
+    {
+      "item": "earth",
+      "amount": 6
+    }
+  ],
+  "health": 180,
+  "size": 1
+}

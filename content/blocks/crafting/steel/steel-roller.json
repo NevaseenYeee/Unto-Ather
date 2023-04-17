@@ -1,0 +1,59 @@
+{
+  "type": "GenericCrafter",
+  "name": "Steel Roller",
+  "description": "[red]Unto Ather [grey]Rolls Steel sheets into tubes.",
+  "itemCapacity": 20,
+  "size": 2,
+  "craftTime": 120,
+  "health": 200,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+        {
+          "item": "steel-sheet",
+          "amount": 2
+        }
+      ]
+    }
+  },
+  "category": "crafting",
+  "outputItem": {
+    "item": "steel-tube",
+	"amount": 1
+  },
+  "research": {
+    "parent": "steel-press",
+    "requirements": [
+      {"item": "steel", "amount": 400}
+      {"item": "steel-sheet", "amount": 120}
+    ]
+  },
+  "requirements": [
+
+    {
+      "item": "lead",
+      "amount": 80
+    },
+    {
+      "item": "iron",
+      "amount": 50
+    },
+	{
+      "item": "steel",
+      "amount": 50
+    },
+	{
+      "item": "steel-sheet",
+      "amount": 20
+    },
+    {
+      "item": "copper",
+      "amount": 20
+    }
+  ]
+}

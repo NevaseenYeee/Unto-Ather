@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "name": "Moisture Farm",
+  "description": "[red]Unto Ather [grey]Apperently, there is a lot of water in the air.",
+  "liquidCapacity": 5,
+  "size": 1,
+  "craftTime": 600,
+  "health": 1,
+  "hasPower": false,
+  "hasLiquids": true,
+  "hasItems": false,
+  "updateEffect": "muddy",
+  "consumes": {
+    
+  },
+  "category": "liquid",
+  "outputLiquid": {
+    "liquid": "water",
+    "amount": 0.005
+  },
+  "research": {
+    "parent": "dugout-conveyor",
+    "requirements": [
+      {"item": "earth", "amount": 20}
+    ]
+  },
+  "requirements": [
+
+    {
+      "item": "earth",
+      "amount": 10
+    }
+  ]
+}

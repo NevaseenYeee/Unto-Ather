@@ -1,0 +1,9 @@
+{
+  "name": "Concrete",
+  "description": "[red]Unto ather [grey]Stone, now in a conveniant cuboid shape.",
+  "color": "8f563b",
+  "flammability": 0,
+  "explosiveness": 0,
+  "charge": 0,
+  "radioactivity": 0,
+}

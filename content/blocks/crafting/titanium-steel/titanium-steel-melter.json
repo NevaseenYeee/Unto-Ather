@@ -1,0 +1,43 @@
+{
+  "type": "GenericCrafter",
+  "name": "Titanium Steel Melter",
+  "description": "[red]Unto Ather [grey]Titanium Steel is much easier to use as a liquid.",
+  "itemCapacity": 20,
+  "size": 3,
+  "craftTime": 600,
+  "health": 120,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "wet",
+  "consumes": {
+    "items": {
+		"items": [
+		{
+			"item": "titanium-steel",
+			"amount": 6
+		}
+		]
+	},
+  },
+  "category": "crafting",
+  "outputLiquid": {
+    "liquid": "molten-titanium-steel",
+    "amount": 0.1
+  },
+  "research": {
+    "parent": "titanium-steel-frame-assembler",
+    "requirements": [
+      {"item": "meatals-sci-ii", "amount": 40}
+      {"item": "meatals-sci-i", "amount": 200}
+    ]
+  },
+  "requirements": [
+		"titanium-steel-frame/60",
+		"copper/60",
+		"surge-superconductor/60",
+		"titanium-steel-sheet/50",
+		"steel-sheet/200",
+		"titanium-steel-tube/20"
+  ]
+}

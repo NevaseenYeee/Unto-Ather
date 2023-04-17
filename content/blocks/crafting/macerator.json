@@ -1,0 +1,117 @@
+{
+  "type": "multicraft.MultiCrafter",
+  "name": "Macerator",
+  "description": "[red]Unto Ather [grey]Do not cry now, there is much left to do.",
+  "itemCapacity": 40,
+  "size": 2,
+  "health": 1200,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "updateEffect": "magmasmoke",
+  "research": {
+    "parent": "cultivator",
+    "requirements": [
+      {"item": "steel-frame", "amount": 600}
+      {"item": "steel", "amount": 2000}
+    ]
+  },
+  "recipes": [
+    {
+		"input": {
+			"power": 2,
+			"items": 
+				[
+					"spore-pod/2"
+				]
+		},
+		"output": {
+			"items":
+			[
+				"ua-biomas/1"
+			]
+		},
+		"craftTime": 60
+	},
+	{
+		"input": {
+			"power": 2
+			"items":
+				[
+					"ua-chicken/1"
+				]
+		},
+		"output": {
+			"items":
+			[
+				"ua-biomas/4"
+			]
+		},
+		"craftTime": 60
+	},
+	{
+		"input": {
+			"power": 2
+			"items": 
+				[
+					"ua-cow/1"
+				]
+		},
+		"output": {
+			"items":
+			[
+				"ua-biomas/20"
+			]
+		},
+		"craftTime": 60
+	},
+	{
+		"input": {
+			"power": 2
+			"items":
+				[
+					"ua-stone-item/4"
+				]
+		},
+		"output": {
+			"items":
+			[
+				"ua-powdered-stone/4"
+			]
+		},
+		"craftTime": 60
+	}
+	]
+  "category": "crafting",
+  "requirements": [
+
+    {
+      "item": "steel-frame",
+      "amount": 6
+    },
+	{
+      "item": "copper",
+      "amount": 120
+    },
+	{
+      "item": "concrete",
+      "amount": 60
+    },
+	{
+      "item": "metaglass",
+      "amount": 20
+    },
+	{
+      "item": "steel",
+      "amount": 60
+    },
+	{
+      "item": "steel-sheet",
+      "amount": 60
+    },
+    {
+      "item": "lead",
+      "amount": 50
+    }
+  ]
+}

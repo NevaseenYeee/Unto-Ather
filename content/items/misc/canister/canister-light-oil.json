@@ -1,0 +1,9 @@
+{
+  "name": "Light Oil Canister",
+  "description": "[red]Unto ather [grey]A Canister of Light Oil.",
+  "color": "8f974a",
+  "flammability": 1,
+  "explosiveness": 0.10,
+  "charge": 0,
+  "radioactivity": 0,
+}

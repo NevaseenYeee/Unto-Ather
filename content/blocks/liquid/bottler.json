@@ -1,0 +1,184 @@
+{
+  "type": "multicraft.MultiCrafter",
+  "name": "Bottler",
+  "description": "[red]Unto Ather [grey]Packadges fluids into neat little canisters.",
+  "liquidCapacity": 120,
+  "size": 2,
+  "health": 240,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "shockwave",
+    "recipes": [
+    {
+		"input": {
+			"power": 2
+			"fluids":
+			[
+					"water/1"
+			]
+			"items":
+			[
+				"metaglass/6"
+				"ua-steel/4"
+				"ua-steel-tube/1"
+			]
+		},
+		"output": {
+			"items":
+			[
+				"ua-canister-water/1"
+			]
+		},
+		"craftTime": 60
+	},
+	{
+		"input": {
+			"power": 2
+			"fluids":
+			[
+					"cryofluid/1"
+			]
+			"items":
+			[
+				"metaglass/6"
+				"ua-steel/4"
+				"ua-steel-tube/1"
+			]
+		},
+		"output": {
+			"items":
+			[
+				"ua-canister-cryo-fluid/1"
+			]
+		},
+		"craftTime": 60
+	},
+	{
+		"input": {
+			"power": 2
+			"fluids":
+			[
+					"oil/1"
+			]
+			"items":
+			[
+				"metaglass/6"
+				"ua-steel/4"
+				"ua-steel-tube/1"
+			]
+		},
+		"output": {
+			"items":
+			[
+				"ua-canister-oil/1"
+			]
+		},
+		"craftTime": 60
+	},
+	{
+		"input": {
+			"power": 2
+			"fluids":
+			[
+					"ua-light-oil/1"
+			]
+			"items":
+			[
+				"metaglass/6"
+				"ua-steel/4"
+				"ua-steel-tube/1"
+			]
+		},
+		"output": {
+			"items":
+			[
+				"ua-canister-light-oil/1"
+			]
+		},
+		"craftTime": 60
+	},
+	{
+		"input": {
+			"power": 2
+			"fluids":
+			[
+					"ua-hydraulic-fluid/1"
+			]
+			"items":
+			[
+				"metaglass/6"
+				"ua-steel/4"
+				"ua-steel-tube/1"
+			]
+		},
+		"output": {
+			"items":
+			[
+				"ua-canister-hydraulic-fluid/1"
+			]
+		},
+		"craftTime": 60
+	},
+	{
+		"input": {
+			"power": 2
+			"fluids":
+				[
+					"slag/0.25"
+				]
+			"items":
+			[
+				"metaglass/6"
+				"ua-titanium-steel/4"
+				"ua-titanium-steel-tube/1"
+			]
+			
+		},
+		"output": {
+			"items":
+			[
+				"ua-canister-slag/1"
+			]
+		},
+		"craftTime": 240
+	}
+	{
+		"input": {
+			"power": 2
+			"fluids":
+				[
+					"ua-molten-steel/0.25"
+				]
+			"items":
+			[
+				"metaglass/6"
+				"ua-titanium-steel/4"
+				"ua-titanium-steel-tube/1"
+			]
+			
+		},
+		"output": {
+			"items":
+			[
+				"ua-canister-molten-steel/1"
+			]
+		},
+		"craftTime": 240
+	}
+	]
+  
+  "category": "liquid",
+  "research": {
+    "parent": "steel-smelter",
+    "requirements": [
+      {"item": "meatals-sci-i", "amount": 200}
+    ]
+  },
+  "requirements": [
+	"steel/40"
+	"steel-tube/80"
+	"lead/30"
+	"steel-sheet/50"
+  ]
+}

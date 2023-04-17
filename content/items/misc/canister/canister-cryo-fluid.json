@@ -1,0 +1,9 @@
+{
+  "name": "Cryofluid Canister",
+  "description": "[red]Unto ather [grey]A Canister of Cryofluid.",
+  "color": "5fcde4",
+  "flammability": 0,
+  "explosiveness": 0,
+  "charge": 0,
+  "radioactivity": 0,
+}

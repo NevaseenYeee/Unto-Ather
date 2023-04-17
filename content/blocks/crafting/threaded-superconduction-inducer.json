@@ -1,0 +1,61 @@
+{
+  "type": "GenericCrafter",
+  "name": "Threaded Superconduction Inducer",
+  "description": "[red]Unto Ather [grey]Induces and packages multiple Surge Superconductors at a time, because it took to long to do one at a time.",
+  "itemCapacity": 120,
+  "size": 4,
+  "craftTime": 1800,
+  "health": 1600,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+	"liquid": 
+      {
+        "liquid": "cryofluid",
+        "amount": 1
+      }
+    "power": 50,
+    "items": {
+      "items": [
+        {
+          "item": "surge-alloy",
+          "amount": 60
+        },
+        {
+          "item": "titanium-steel-rod",
+          "amount": 10
+        }
+      ]
+    }
+  },
+  "category": "crafting",
+  "outputItem": {
+    "item": "surge-superconductor",
+	"amount": 10
+  },
+  "requirements": [
+
+    {
+      "item": "steel",
+      "amount": 140
+    },
+	{
+      "item": "silicon",
+      "amount": 190
+    },
+	{
+      "item": "heavy-steel",
+      "amount": 100
+    },
+    {
+      "item": "titanium-steel",
+      "amount": 50
+    },
+    {
+      "item": "surge-superconductor",
+      "amount": 70
+    }
+  ]
+}

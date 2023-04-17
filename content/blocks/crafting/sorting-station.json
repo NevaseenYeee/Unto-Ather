@@ -1,0 +1,45 @@
+{
+  "type": "Separator",
+  "name": "Sorting Station",
+  "description": "[red]Unto Ather [grey]I don't know, magnetics, or something. Sorts Scrap into Copper and Lead.",
+  "itemCapacity": 20,
+  "size": 1,
+  "craftTime": 300,
+  "health": 5,
+  "hasPower": false,
+  "hasLiquids": false,
+  "hasItems": true,
+  "updateEffect": "muddy",
+	"consumes": {
+		"items": {
+			"items": [
+			{
+				"item": "scrap",
+				"amount": 6
+			}
+			]
+		}
+	},
+  "category": "crafting",
+	"results": [
+  "lead/1",
+  "copper/2"
+	],
+	"research": {
+    "parent": "sifting-pit",
+    "requirements": [
+      {"item": "scrap", "amount": 20}
+    ]
+  },
+  "requirements": [
+
+    {
+      "item": "earth",
+      "amount": 20
+    },
+	{
+      "item": "scrap",
+      "amount": 10
+    }
+  ]
+}

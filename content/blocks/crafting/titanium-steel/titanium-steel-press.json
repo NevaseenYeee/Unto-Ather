@@ -1,0 +1,60 @@
+{
+  "type": "GenericCrafter",
+  "name": "Titanium Press",
+  "description": "[red]Unto Ather [grey]Crushes Titanium Steel into thin sheets",
+  "category": "crafting",
+  "itemCapacity": 20,
+  "size": 3,
+  "craftTime": 240,
+  "health": 840,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "shockwave",
+  "consumes": {
+    "power": 8,
+    "items": {
+      "items": [
+        {
+          "item": "titanium-steel",
+          "amount": 2
+        }
+      ]
+    },
+	"liquid": 
+      {
+        "liquid": "hydraulic-fluid",
+        "amount": 0.4
+      },
+  },
+  "outputItem": {
+    "item": "titanium-steel-sheet",
+	"amount": 1
+  },
+  "research": {
+    "parent": "titanium-smelter",
+    "requirements": [
+      {"item": "titanium", "amount": 5200}
+      {"item": "titanium-steel", "amount": 40}
+    ]
+  },
+  "requirements": [
+
+    {
+      "item": "steel-frame",
+      "amount": 12
+    },
+    {
+      "item": "titanium-steel",
+      "amount": 20
+    },
+	{
+      "item": "steel",
+      "amount": 120
+    },
+    {
+      "item": "steel-tube",
+      "amount": 8
+    }
+  ]
+}

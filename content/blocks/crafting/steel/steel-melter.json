@@ -1,0 +1,53 @@
+{
+  "type": "GenericCrafter",
+  "name": "Steel Melter",
+  "description": "[red]Unto Ather [grey]Steel is much easier to use as a liquid.",
+  "itemCapacity": 20,
+  "size": 2,
+  "craftTime": 60,
+  "health": 120,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "wet",
+  "consumes": {
+    "items": {
+		"items": [
+		{
+			"item": "steel",
+			"amount": 6
+		}
+		]
+	},
+  },
+  "category": "crafting",
+  "outputLiquid": {
+    "liquid": "molten-steel",
+    "amount": 1.0
+  },
+  "research": {
+    "parent": "steel-frame-assembler",
+    "requirements": [
+      {"item": "meatals-sci-i", "amount": 400}
+    ]
+  },
+  "requirements": [
+
+    {
+      "item": "steel-frame",
+      "amount": 60
+    },
+	{
+      "item": "copper",
+      "amount": 60
+    },
+	{
+      "item": "surge-superconductor",
+      "amount": 6
+    },
+    {
+      "item": "steel-sheet",
+      "amount": 50
+    }
+  ]
+}

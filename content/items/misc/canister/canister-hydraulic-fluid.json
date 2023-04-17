@@ -1,0 +1,9 @@
+{
+  "name": "Hydraulic fluid Canister",
+  "description": "[red]Unto ather [grey]A Canister of Hydraulic fluid.",
+  "color": "4b692f",
+  "flammability": 0,
+  "explosiveness": 0,
+  "charge": 0,
+  "radioactivity": 0,
+}

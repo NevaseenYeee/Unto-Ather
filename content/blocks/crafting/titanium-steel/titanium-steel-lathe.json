@@ -1,0 +1,68 @@
+{
+  "type": "GenericCrafter",
+  "name": "Titanium Lathe",
+  "description": "[red]Unto Ather [grey]Spins Titanium Steel and shapes it into rods",
+  "itemCapacity": 20,
+  "size": 3,
+  "craftTime": 480,
+  "health": 200,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 8,
+	"liquid": 
+      {
+        "liquid": "cryofluid",
+        "amount": 0.5
+      }
+    "items": {
+      "items": [
+        {
+          "item": "titanium-steel",
+          "amount": 2
+        }
+      ]
+    }
+  },
+  "category": "crafting",
+  "outputItem": {
+    "item": "titanium-steel-rod",
+	"amount": 1
+  },
+  "research": {
+    "parent": "titanium-roller",
+    "requirements": [
+      {"item": "titanium-steel-tube", "amount": 40}
+      {"item": "titanium-steel-sheet", "amount": 100}
+    ]
+  },
+  "requirements": [
+
+    {
+      "item": "steel",
+      "amount": 80
+    },
+	{
+		"item": "titanium-steel-tube",
+		"ammount": 8
+    },
+    {
+      "item": "steel-frame",
+      "amount": 60
+    },
+	{
+      "item": "titanium-steel-sheet",
+      "amount": 40
+    },
+	{
+	  "item": "steel-sheet"
+	  "amount": 90
+	},
+    {
+      "item": "silicon",
+      "amount": 20
+    }
+  ]
+}

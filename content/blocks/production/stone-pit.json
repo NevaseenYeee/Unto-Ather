@@ -1,0 +1,38 @@
+{
+  "type": "GenericCrafter",
+  "name": "Stone Pit",
+  "description": "[red]Unto Ather [grey]Commonly refered to as a quary. Which is wrong, it is a pit.",
+  "itemCapacity": 10,
+  "size": 2,
+  "craftTime": 300,
+  "health": 50,
+  "hasPower": false,
+  "hasLiquids": false,
+  "hasItems": true,
+  "updateEffect": "smoke",
+  "consumes": {
+    
+  },
+  "category": "production",
+  "outputItem": {
+    "item": "stone",
+	"amount": 1
+  },
+  "research": {
+    "parent": "mud-bore",
+    "requirements": [
+      {"item": "scrap", "amount": 500}
+    ]
+  },
+  "requirements": [
+
+    {
+      "item": "scrap",
+      "amount": 20
+    },
+	{
+      "item": "earth",
+      "amount": 50
+    }
+  ]
+}

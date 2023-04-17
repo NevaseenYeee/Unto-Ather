@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "name": "Mud Bore",
+  "description": "[red]Unto Ather [grey]Made from stiks and stones, it's impressive it works at all.",
+  "itemCapacity": 5,
+  "size": 1,
+  "craftTime": 300,
+  "health": 1,
+  "hasPower": false,
+  "hasLiquids": false,
+  "hasItems": true,
+  "updateEffect": "muddy",
+  "consumes": {
+    
+  },
+  "category": "production",
+  "outputItem": {
+    "item": "earth",
+	"amount": 1
+  },
+  "research": {
+    "parent": "mechanical-drill",
+    "requirements": [
+      {"item": "copper", "amount": 1}
+    ]
+  },
+  "requirements": [
+
+    {
+      "item": "copper",
+      "amount": 0
+    }
+  ]
+}

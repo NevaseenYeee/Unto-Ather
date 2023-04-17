@@ -1,0 +1,25 @@
+{
+	"type": "CoreBlock",
+	  "name": "Steel",
+	"health": 8000,
+	"size": 3,
+	"absorbLasers": false,
+	"itemCapacity": 2000,
+	"unitCapModifier": 8,
+	"isFirstTier": true,
+	"description": "[red]Unto Ather [grey]Now armmored the core is safe to continue production... \n[grey]From the stars unto earth here lies, the heart [blue]of Ather.\n[grey]A shell of teel, made alive [blue]by ather.\n[grey]The planets tremble now, and bow [blue]Unto Ather."
+	"requirements": [
+		{ "item": "steel", "amount": 200 },
+		{ "item": "iron", "amount": 300 },
+		{ "item": "graphite", "amount": 500 },
+		{ "item": "silicon", "amount": 200 }
+	],
+	"research": {
+    "parent": "steel-forge",
+    "requirements": [
+      {"item": "steel", "amount": 1000}
+    ]
+  },
+    "unitType": "ironclad",
+  "category": "effect"
+}

@@ -1,0 +1,117 @@
+{
+  "type": "multicraft.MultiCrafter",
+  "name": "Titanium Steel Mold",
+  "description": "[red]Unto Ather [grey]A mold for simple Titanium Steel components.",
+  "itemCapacity": 20,
+  "size": 2,
+  "health": 120,
+  "hasPower": false,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "wet",
+  "research": {
+    "parent": "titanium-steel-melter",
+    "requirements": [
+      {"item": "meatals-sci-ii", "amount": 1}
+    ]
+  },
+  "recipes": [
+    {
+		"input": {
+			"fluids":
+			[
+					"ua-molten-titanium-steel/0.25"
+			]
+			"items":
+			[
+				"sand/4"
+			]
+		},
+		"output": {
+			"items":
+			[
+				"ua-titanium-steel-sheet/3"
+			]
+		},
+		"craftTime": 120
+	},
+	{
+		"input": {
+			"fluids":
+			[
+					"ua-molten-titanium-steel/0.25"
+			]
+			"items":
+			[
+				"sand/4"
+			]
+		},
+		"output": {
+			"items":
+			[
+				"ua-titanium-steel-rod/3"
+			]
+		},
+		"craftTime": 120
+	},
+	{
+		"input": {
+			"fluids":
+				[
+					"ua-molten-titanium-steel/0.25"
+				]
+			"items":
+			[
+				"sand/4"
+			]
+			
+		},
+		"output": {
+			"items":
+			[
+				"ua-titanium-steel-tube/3"
+			]
+		},
+		"craftTime": 120
+	},
+	{
+		"input": {
+			"fluids":
+			[
+					"ua-molten-titanium-steel/0.25"
+			]
+			"items":
+			[
+				"sand/4"
+			]
+		},
+		"output": {
+			"items":
+			[
+				"ua-titanium-steel/3"
+			]
+		},
+		"craftTime": 120
+	}
+	]
+  "category": "crafting",
+  "requirements": [
+
+    {
+      "item": "titanium-steel-frame",
+      "amount": 60
+    },
+	{
+      "item": "titanium-steel-sheet",
+      "amount": 60
+    },
+	{
+      "item": "steel-sheet",
+      "amount": 120
+    },
+    {
+      "item": "lead",
+      "amount": 50
+    }
+  ]
+}

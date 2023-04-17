@@ -1,0 +1,9 @@
+{
+  "name": "Pile of [blue]Ather",
+  "description": "[red]Unto ather [grey]A small pile of [blue]Ather.[grey] Still strong enough to level a city.",
+  "color": "5fcde4",
+  "flammability": 10000,
+  "explosiveness": 10000,
+  "charge": 10000,
+  "radioactivity": 10000,
+} 

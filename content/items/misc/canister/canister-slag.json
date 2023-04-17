@@ -1,0 +1,9 @@
+{
+  "name": "Slag Canister",
+  "description": "[red]Unto ather [grey]A Canister of Slag.",
+  "color": "df7126",
+  "flammability": 4,
+  "explosiveness": 0.10,
+  "charge": 0,
+  "radioactivity": 0,
+}

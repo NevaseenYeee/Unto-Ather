@@ -1,0 +1,46 @@
+{
+  "type": "GenericCrafter",
+  "name": "Sifting Pit",
+  "description": "[red]Unto Ather [grey]A large hole full of water to collect some burried scrap.",
+  "itemCapacity": 20,
+  "size": 1,
+  "craftTime": 600,
+  "health": 5,
+  "hasPower": false,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "muddy",
+  "consumes": {
+	"liquid": 
+      {
+        "liquid": "water",
+        "amount": 0.02
+      },
+    "items": {
+		"items": [
+		{
+			"item": "earth",
+			"amount": 8
+		}
+		]
+	},
+  },
+  "category": "crafting",
+  "outputItem": {
+    "item": "scrap",
+	"amount": 2
+  },
+  "research": {
+    "parent": "core-dirt",
+    "requirements": [
+      {"item": "earth", "amount": 20}
+    ]
+  },
+  "requirements": [
+
+    {
+      "item": "earth",
+      "amount": 20
+    }
+  ]
+}

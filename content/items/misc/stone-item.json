@@ -1,0 +1,9 @@
+{
+  "name": "Stone",
+  "description": "[red]Unto ather [grey]A pile of stone.",
+  "color": "8f563b",
+  "flammability": 0,
+  "explosiveness": 0,
+  "charge": 0,
+  "radioactivity": 0,
+}

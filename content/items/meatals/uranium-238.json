@@ -1,0 +1,9 @@
+{
+  "name": "Uranium-238",
+  "description": "[red]Unto ather [grey]A semi-stable isotope of uranium.",
+  "color": "4b692f",
+  "flamibility": 0,
+  "explosiveness": 0,
+  "charge": 0,
+  "radioactivity": 0.5,
+}

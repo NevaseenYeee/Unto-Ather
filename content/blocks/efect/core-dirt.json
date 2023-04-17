@@ -1,0 +1,22 @@
+{
+	"type": "CoreBlock",
+	  "name": "Dirt",
+	"health": 800,
+	"size": 2,
+	"absorbLasers": false,
+	"itemCapacity": 500,
+	"unitCapModifier": 2,
+	"isFirstTier": true,
+	"description": "[red]Unto Ather [grey]A sizeable pile of dirt whith a chunk of Ather at its core... \n[grey]From earthen dust came a shard [blue]of Ather.\n[grey]Life given to muck and stones [blue]by ather.\n[grey]A deepper purpose known only [blue]Unto Ather."
+	"requirements": [
+		{ "item": "earth", "amount": 100 }
+	],
+	"research": {
+    "parent": "dugout-conveyor",
+    "requirements": [
+      {"item": "earth", "amount": 100}
+    ]
+  },
+    "unitType": "mud",
+  "category": "effect"
+}

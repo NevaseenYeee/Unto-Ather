@@ -1,0 +1,59 @@
+{
+  "type": "GenericCrafter",
+  "name": "Titanium Roller",
+  "description": "[red]Unto Ather [grey]Rolls Titanium Steel sheets into tubes.",
+  "itemCapacity": 20,
+  "size": 3,
+  "craftTime": 120,
+  "health": 1800,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+        {
+          "item": "titanium-steel-sheet",
+          "amount": 2
+        }
+      ]
+    }
+  },
+  "category": "crafting",
+  "outputItem": {
+    "item": "titanium-steel-tube",
+	"amount": 1
+  },
+  "research": {
+    "parent": "titanium-press",
+    "requirements": [
+      {"item": "titanium-steel", "amount": 400}
+      {"item": "titanium-steel-sheet", "amount": 120}
+    ]
+  },
+  "requirements": [
+
+    {
+      "item": "steel-frame",
+      "amount": 80
+    },
+    {
+      "item": "titanium-steel-sheet",
+      "amount": 50
+    },
+	{
+      "item": "steel",
+      "amount": 100
+    },
+	{
+      "item": "steel-sheet",
+      "amount": 200
+    },
+    {
+      "item": "steel-tube",
+      "amount": 24
+    }
+  ]
+}

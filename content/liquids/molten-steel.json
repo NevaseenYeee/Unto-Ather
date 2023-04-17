@@ -1,0 +1,11 @@
+{
+"name": "Molten Steel"
+"temperature": 4,
+"flammability": 0,
+"viscosity": 0.3,
+"lightColor": "ff8f42",
+"heatCapacity": -1,
+"explosiveness": 0,
+"effect": "melting",
+"color": "9badb7",
+}

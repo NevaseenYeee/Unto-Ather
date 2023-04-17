@@ -1,0 +1,9 @@
+{
+  "name": "Uranium-235",
+  "description": "[red]Unto ather [grey]An unstable isotope of uranium usefull for fuel.",
+  "color": "6abe30",
+  "flamibility": 0,
+  "explosiveness": 0,
+  "charge": 0,
+  "radioactivity": 9,
+}

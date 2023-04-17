@@ -1,0 +1,95 @@
+{
+  "type": "GenericCrafter",
+  "name": "Titanium Steel Frame Assembler",
+  "description": "[red]Unto Ather [grey]Assembles Titanium Steel Frames. Verry complicated.",
+  "itemCapacity": 24,
+  "size": 4,
+  "craftTime": 600,
+  "health": 2800,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 3,
+	"liquids": {
+      "liquids": [
+	  {
+        "liquid": "cryofluid",
+        "amount": 0.8
+      },
+      {
+        "liquid": "hydraulic-fluid",
+        "amount": 0.2
+      }
+	  ]
+	}
+    "items": {
+      "items": [
+        {
+          "item": "titanium-steel-sheet",
+          "amount": 6
+        },
+		{
+          "item": "titanium-steel-rod",
+          "amount": 12
+        },
+		{
+		  "item": "steel-frame"
+		  "amount": 8
+		},
+		{
+          "item": "titanium-steel-tube",
+          "amount": 2
+        }
+      ]
+    }
+  },
+  "category": "crafting",
+  "outputItem": {
+    "item": "titanium-steel-frame",
+	"amount": 1
+  },
+  "research": {
+    "parent": "titanium-lathe",
+    "requirements": [
+      {"item": "titanium-steel-tube", "amount": 40}
+      {"item": "titanium-steel-sheet", "amount": 120}
+    ]
+  },
+  "requirements": [
+
+    {
+      "item": "titanium-steel-tube",
+      "amount": 50
+    },
+	{
+      "item": "steel-tube",
+      "amount": 70
+    },
+    {
+      "item": "titanium-steel-rod",
+      "amount": 50
+    },
+	{
+      "item": "steel-rod",
+      "amount": 160
+    },
+	{
+      "item": "steel",
+      "amount": 50
+    },
+	{
+      "item": "steel-sheet",
+      "amount": 200
+    },
+	{
+      "item": "titanium-steel-sheet",
+      "amount": 50
+    },
+    {
+      "item": "silicon",
+      "amount": 250
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "conduit",
+  "name": "Dugout Conduit",
+  "description": "A moist hole in the ground.",
+  "health": 1,
+  "transportTime": 20,
+  "liquidPressure": 1,
+  "requirements": [
+    {
+      "item": "earth",
+      "amount": 2
+    }
+  ],
+  "research": {
+    "parent": "moisture-farm",
+    "requirements": [
+      {"item": "earth", "amount": 10}
+    ]
+  },
+  "category": "liquid"
+}

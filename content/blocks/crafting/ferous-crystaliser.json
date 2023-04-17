@@ -1,0 +1,51 @@
+{
+  "type": "GenericCrafter",
+  "name": "Ferous Crystaliser",
+  "description": "[red]Unto Ather [grey]Erodes away Scrap leving behind crystals of Iron.",
+  "itemCapacity": 30,
+  "size": 2,
+  "craftTime": 600,
+  "health": 120,
+  "hasPower": false,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "wet",
+  "consumes": {
+	"liquid": 
+      {
+        "liquid": "water",
+        "amount": 0.05
+      },
+    "items": {
+		"items": [
+		{
+			"item": "scrap",
+			"amount": 12
+		}
+		]
+	},
+  },
+  "category": "crafting",
+  "outputItem": {
+    "item": "iron",
+	"amount": 3
+  },
+  "research": {
+    "parent": "sorting-station",
+    "requirements": [
+      {"item": "copper", "amount": 60}
+      {"item": "lead", "amount": 30}
+    ]
+  },
+  "requirements": [
+
+    {
+      "item": "copper",
+      "amount": 30
+    }
+    {
+      "item": "lead",
+      "amount": 25
+    }
+  ]
+}

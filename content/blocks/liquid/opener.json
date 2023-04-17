@@ -1,0 +1,135 @@
+{
+  "type": "multicraft.MultiCrafter",
+  "name": "Opener",
+  "description": "[red]Unto Ather [grey]Opens up those neat little canisters.",
+  "liquidCapacity": 240,
+  "itemCapacity": 10
+  "size": 1,
+  "health": 240,
+  "hasPower": false,
+  "hasLiquids": true,
+  "hasItems": true,
+  "outputsLiquid": true,
+  "updateEffect": "shockwave",
+    "recipes": [
+    {
+		"input": {
+			"items":
+			[
+				"ua-canister-water/1"
+			]
+		},
+		"output": {
+			"fluids":
+			[
+				"water/60"
+			]
+		},
+		"craftTime": 1
+	},
+	{
+		"input": {
+			"items":
+			[
+				"ua-canister-cryo-fluid/1"
+			]
+		},
+		"output": {
+			"fluids":
+			[
+				"cryofluid/60"
+			]
+		},
+		"craftTime": 1
+	},
+	{
+		"input": {
+			"items":
+			[
+					"ua-canister-oil/1"
+			]
+		},
+		"output": {
+			"fluids":
+			[
+				"oil/60"
+			]
+		},
+		"craftTime": 1
+	},
+	{
+		"input": {
+			"items":
+			[
+					"ua-canister-light-oil/1"
+			]
+		},
+		"output": {
+			"fluids":
+			[
+				"ua-light-oil/60"
+			]
+		},
+		"craftTime": 1
+	},
+	{
+		"input": {
+			"items":
+			[
+					"ua-canister-hydraulic-fluid/1"
+			]
+		},
+		"output": {
+			"fluids":
+			[
+				"ua-hydraulic-fluid/60"
+			]
+		},
+		"craftTime": 1
+	},
+	{
+		"input": {
+			"items":
+				[
+					"ua-canister-slag/1"
+				]
+		},
+		"output": {
+			"fluids":
+			[
+				"slag/60"
+			]
+		},
+		"craftTime": 1
+	}
+	{
+		"input": {
+			"items":
+				[
+					"ua-canister-molten-steel/1"
+				]
+		},
+		"output": {
+			"fluids":
+			[
+				"ua-molten-steel/60"
+			]
+		},
+		"craftTime": 1
+	}
+	]
+  
+  "category": "liquid",
+  "research": {
+    "parent": "steel-smelter",
+    "requirements": [
+      {"item": "meatals-sci-i", "amount": 200}
+    ]
+  },
+  "requirements": [
+	"steel/40"
+	"steel-tube/80"
+	"lead/30"
+	"steel-sheet/50"
+  ]
+}
