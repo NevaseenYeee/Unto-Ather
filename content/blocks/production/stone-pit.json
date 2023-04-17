@@ -15,7 +15,7 @@
   },
   "category": "production",
   "outputItem": {
-    "item": "stone",
+    "item": "stone-item",
 	"amount": 1
   },
   "research": {
