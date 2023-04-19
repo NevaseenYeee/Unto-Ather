@@ -45,7 +45,7 @@
   "research": {
     "parent": "macerator",
     "requirements": [
-      {"item": "stone", "amount": 80},
+      {"item": "stone-item", "amount": 80},
 	  {"item": "powdered-stone", "amount": 120}
     ]
   },
