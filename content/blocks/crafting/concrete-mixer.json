@@ -1,0 +1,57 @@
+{
+  "type": "GenericCrafter",
+  "name": "Concrete Mixer",
+  "description": "[red]Unto Ather [grey]Stone, Sand, Water, and Powdered Stone come together in this machine to make Concrete.",
+  "itemCapacity": 30,
+  "size": 3,
+  "craftTime": 300,
+  "health": 480,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "wet",
+  "consumes": {
+	"power":
+	  {
+		"power": 2
+	  },
+	"liquid": 
+      {
+        "liquid": "water",
+        "amount": 0.4
+      },
+    "items": {
+		"items": [
+		{
+			"item": "stone-item",
+			"amount": 4
+		}
+		{
+			"item": "sand",
+			"amount": 6
+		}
+		{
+			"item": "powdered-stone",
+			"amount": 6
+		}
+		]
+	},
+  },
+  "category": "crafting",
+  "outputItem": {
+    "item": "concrete",
+	"amount": 3
+  },
+  "research": {
+    "parent": "macerator",
+    "requirements": [
+      {"item": "stone", "amount": 80},
+	  {"item": "powdered-stone", "amount": 120}
+    ]
+  },
+  "requirements": [
+	  {"item": "copper", "amount": 60},
+	  {"item": "metaglass", "amount": 20},
+      {"item": "lead", "amount": 35}
+  ]
+}
