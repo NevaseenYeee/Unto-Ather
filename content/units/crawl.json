@@ -21,7 +21,7 @@
 	"allowLegStep": true,
 	"weapons": [
 	    {
-	"name": "byte",
+	"name": "crawl-byte",
     "mirror": false,
     "x": 0,
     "y": 2,

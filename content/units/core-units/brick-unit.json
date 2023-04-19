@@ -1,0 +1,57 @@
+{
+	"type": "mech",
+	"speed": 0.5,
+	"boostMultiplier": 1,
+	"mineSpeed": 2,
+	"buildSpeed": 1,
+	"mineTier": 20,
+	"itemCapacity": 50,
+	"stepShake": 0.1,
+	"mechStepParticles": false,
+    "mechLandShake": 0,
+    "mechFrontSway": 1,
+    "mechSideSway": 1,
+	"mechStride": 8,
+	"armor": 2,
+	"canDrown": false,
+    "singleTarget": false,
+	"flying": false,
+	"targetAir": true,
+	"rotateSpeed": 1.5,
+	"immunities": [
+		"burning",
+	],
+	"health": 1000,
+	"armor": 2,
+	"hitSize": 20,
+	"faceTarget": true,
+	"canBoost": true,
+	"description": "A gigantic stone, AKA an unstopable force."
+	"weapons": [
+	{
+	"name": "brick-unit-pummel",
+		"bullet": {
+			"type": "bacicBuletType",
+			"lifetime": 60,
+			"speed": 5,
+			"damage": 20,
+			"hitSize": 8,
+			"drag": 0.05,
+			"peirce": true,
+			"peirceBuilding": true,
+			"buildingDamageMultiplier": 0.5,
+			"knockback": 4,
+			"impact": true,
+			"splashDamage": 2,
+			"splashDamageRadius": 20,
+			"scaleLife": true
+		},
+		"mirror": true,
+		"alternate": true,
+		"rotate": false,
+		"reload": 2
+		"shake": 0.1
+		"x": 8
+	}
+	]
+}

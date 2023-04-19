@@ -1,0 +1,25 @@
+{
+	"type": "CoreBlock",
+	  "name": "Stone",
+	"health": 8000,
+	"size": 3,
+	"absorbLasers": false,
+	"itemCapacity": 2000,
+	"unitCapModifier": 8,
+	"isFirstTier": true,
+	"description": "[red]Unto Ather [grey]A castle for your core\n[grey]Armies fought, yet never did conquer the power [blue]of Ather.\n[grey]A Fortress of stone laid over bones [blue]by ather.\n[grey]The planet and her kingdoms now fall [blue]Unto Ather."
+	"requirements": [
+		{ "item": "stone-item", "amount": 400 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "concrete", "amount": 500 },
+		{ "item": "powdered-stone", "amount": 200 }
+	],
+	"research": {
+    "parent": "concrete-mixer",
+    "requirements": [
+      {"item": "concrete", "amount": 1000}
+    ]
+  },
+    "unitType": "brick-unit",
+  "category": "effect"
+}
