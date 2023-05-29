@@ -28,7 +28,7 @@
   "research": {
     "parent": "stone-pit",
     "requirements": [
-      {"item": "stone", "amount": 40}
+      {"item": "stone-item", "amount": 40}
       {"item": "copper", "amount": 20}
     ]
   },
