@@ -47,5 +47,13 @@
       "item": "lead",
       "amount": 25
     }
+	{
+      "item": "concrete",
+      "amount": 20
+    }
+	{
+      "item": "scrap",
+      "amount": 5
+    }
   ]
 }

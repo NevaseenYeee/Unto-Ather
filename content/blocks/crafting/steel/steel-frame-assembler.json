@@ -26,6 +26,10 @@
           "item": "steel-tube",
           "amount": 2
         }
+		{
+          "item": "concrete",
+          "amount": 4
+        }
       ]
     }
   },
@@ -57,11 +61,15 @@
     },
 	{
       "item": "steel-sheet",
-      "amount": 20
+      "amount": 60
     },
     {
       "item": "silicon",
       "amount": 20
+    },
+	{
+      "item": "concrete",
+      "amount": 30
     }
   ]
 }

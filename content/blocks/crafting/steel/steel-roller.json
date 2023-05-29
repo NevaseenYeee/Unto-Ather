@@ -54,6 +54,10 @@
     {
       "item": "copper",
       "amount": 20
+    },
+	{
+      "item": "concrete",
+      "amount": 50
     }
   ]
 }
