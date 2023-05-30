@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Stone Crusher",
-  "description": "[red]Unto Ather [grey]Crushes iron into a dusty grey powder.",
+  "description": "[red]Unto Ather [grey]Crushes stone into a dusty grey powder.",
   "itemCapacity": 20,
   "size": 2,
   "craftTime": 240,
