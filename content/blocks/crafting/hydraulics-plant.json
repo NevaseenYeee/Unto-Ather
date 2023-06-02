@@ -2,7 +2,7 @@
   "type": "GenericCrafter",
   "name": "Hydraulics plant",
   "description": "[red]Unto Ather [grey]An odd machine to make Hydraulic fluid.",
-  "size": 4,
+  "size": 3,
   "craftTime": 240,
   "health": 800,
   "hasPower": true,
