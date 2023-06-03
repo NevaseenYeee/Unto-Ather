@@ -135,11 +135,19 @@
 
     {
       "item": "steel",
+      "amount": 120
+    },
+	{
+      "item": "titanium-steel",
       "amount": 80
     },
 	{
+      "item": "titanium-steel-frame",
+      "amount": 20
+    },
+	{
       "item": "steel-frame",
-      "amount": 80
+      "amount": 90
     },
 	{
       "item": "steel-rod",
@@ -147,19 +155,15 @@
     },
 	{
       "item": "steel-sheet",
-      "amount": 80
-    },
-	{
-      "item": "lead",
-      "amount": 40
+      "amount": 180
     },
     {
       "item": "iron",
-      "amount": 50
+      "amount": 150
     },
     {
-      "item": "copper",
-      "amount": 70
+      "item": "concrete",
+      "amount": 270
     }
   ]
 }
