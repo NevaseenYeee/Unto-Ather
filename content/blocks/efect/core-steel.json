@@ -1,12 +1,12 @@
 {
 	"type": "CoreBlock",
 	  "name": "Steel",
-	"health": 8000,
-	"size": 3,
+	"health": 12000,
+	"size": 4,
 	"absorbLasers": false,
-	"itemCapacity": 2000,
-	"unitCapModifier": 8,
-	"isFirstTier": true,
+	"itemCapacity": 8000,
+	"unitCapModifier": 12,
+	"isFirstTier": false,
 	"description": "[red]Unto Ather [grey]Now armmored the core is safe to continue production... \n[grey]From the stars unto earth here lies, the heart [blue]of Ather.\n[grey]A shell of teel, made alive [blue]by ather.\n[grey]The planets tremble now, and bow [blue]Unto Ather."
 	"requirements": [
 		{ "item": "steel", "amount": 200 },
