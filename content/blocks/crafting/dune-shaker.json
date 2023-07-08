@@ -1,0 +1,47 @@
+{
+  "type": "Separator",
+  "name": "Dune Shaker",
+  "description": "[red]Unto Ather [grey]An unnecessarily large device fit for unnecessarily large ammounts of sand.",
+  "itemCapacity": 500,
+  "size": 8,
+  "craftTime": 1,
+  "health": 1000,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+	"consumes": {
+		"power":{
+			"Power": 300
+		}
+		"items": {
+			"items": [
+			{
+				"item": "sand",
+				"amount": 10
+			}
+			]
+		}
+	},
+  "category": "crafting",
+	"results": [
+  "sand/100000",
+  "ather-grain/1"
+	],
+	"research": {
+    "parent": "macerator",
+    "requirements": [
+      {"item": "sand", "amount": 20}
+    ]
+  },
+  "requirements": [
+
+    {
+      "item": "earth",
+      "amount": 20
+    },
+	{
+      "item": "scrap",
+      "amount": 10
+    }
+  ]
+}
